@@ -22,14 +22,14 @@ class Date {
   /// ```dart
   /// final myFavouriteDay = Date(1994, 9, 24);
   /// ```
-  Date(int year, int month, int day) : dateTime = DateTime(year, month, day);
+  Date(int year, int month, int day)
+      : dateTime = DateTime.utc(year, month, day);
 
   /// Constructs a new [Date] instance based on [dateTime].
   ///
   /// This takes the date part of the given [DateTime]
   /// and discards the rest.
-  Date.of(DateTime dateTime)
-      : dateTime = DateTime(dateTime.year, dateTime.month, dateTime.day);
+  Date.of(DateTime dateTime) : dateTime = dateTime.toUtc();
 
   /// Constructs a [Date] instance with current date.
   ///
