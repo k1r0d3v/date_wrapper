@@ -1,6 +1,6 @@
 name: date_wrapper
 description: A wrapper around DateTime to simplify the use of dates without time.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/k1r0d3v/date_wrapper
 
 environment:
