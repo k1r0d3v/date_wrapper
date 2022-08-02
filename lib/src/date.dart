@@ -29,7 +29,8 @@ class Date {
   ///
   /// This takes the date part of the given [DateTime]
   /// and discards the rest.
-  Date.of(DateTime dateTime) : dateTime = dateTime.toUtc();
+  Date.of(DateTime dateTime)
+      : dateTime = DateTime.utc(dateTime.year, dateTime.month, dateTime.day);
 
   /// Constructs a [Date] instance with current date.
   ///
