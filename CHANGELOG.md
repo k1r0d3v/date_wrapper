@@ -6,3 +6,6 @@
 
 ## 1.0.2
 * Bugfix of(DateTime) constructor
+
+## 1.0.3
+* Update package description
