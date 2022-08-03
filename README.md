@@ -1,27 +1,12 @@
 A wrapper around DateTime to simplify the use of dates without time.
 
-## Installing
-
-1. Add dependencies to `pubspec.yaml`
-```yaml
-dependencies:
-     calendar_view: <latest-version>
-```
-2. Run pub get
-```
-flutter pub get
-```
-
-3. Import package
-```dart
-import 'package:date_wrapper/date.dart';
-```
-
 ## Usage
 
 Usage similar to `DateTime`:
 
 ```dart
+import 'package:date_wrapper/date.dart';
+
 final now = DateTime.now();
 final today = Date.today();
 
